@@ -6,4 +6,5 @@ urlpatterns = patterns('app1.views',
 	url(r'^http_response/$', 'http_response', name='http_response'),
 	url(r'^simple_template/$', 'simple_template', name='simple_template'),
 	url(r'^users/$', 'users', name='users'),
+    url(r'^json_response/', 'json_response', name='json_response'),
 )
